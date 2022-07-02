@@ -1,0 +1,11 @@
+[package]
+name = "nlm-tools"
+version = "0.1.0"
+authors = ["Rink Springer <rink@rink.nu>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1"
+object = { version = "0.29", features = [ "write"] }
