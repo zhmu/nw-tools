@@ -27,3 +27,9 @@ Given a ELF file of `SERVER.NLM` (which can be extracted using `extrace-loader-n
 This tool will decode the NetWare 3.x bindery. It must be invoked with paths to `net$obj.sys`, `net$prop.sys` and `net$val.sys`, which it will process and output a text-based representation of the contents thereof.
 
 When NetWare is running, these files will be inaccessible. I tend to use my `nwfs386` shell tool to extract these files directly from a disk image. Alternatively, there are various tools available to lock/unlock the bindery which will grant you access to these files.
+
+## nw-crypt
+
+C-code illustrating how NetWare 3.x password hashing and client logins are implemented. Refer to [my blog post](https://blog.rink.nu/2023/02/03/on-netware-3.x-password-hashing/) for more information.
+
+This code is specificially licensed using Creative Commons CC BY. All other code in this repository is licensed using GPLv3.
